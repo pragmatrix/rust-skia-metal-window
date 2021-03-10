@@ -23,18 +23,15 @@ foreign-types = { version = "0.3", optional = true }
 cocoa = { version = "0.24", optional = true }
 objc = { version = "0.2.7", optional = true }
 
-
-
-
 [dependencies.skia]
 package = "skia-safe"
-version = "0.37"
+version = "0.38"
 features = [
 	# "textlayout"
 ]
 
 [dependencies.skia-bindings]
-version = "0.37"
+version = "0.38"
 features = [
 	# "textlayout"
 ]
