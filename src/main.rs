@@ -78,7 +78,7 @@ fn main() {
         let t_info = unsafe { TextureInfo::new(drawable.texture().as_ptr() as *const _) };
         let target = BackendRenderTarget::new_metal(
             (draw_size.width as i32, draw_size.height as i32),
-            4,
+            1,
             &t_info,
         );
 
