@@ -25,7 +25,7 @@ objc = { version = "0.2.7", optional = true }
 
 [dependencies.skia]
 package = "skia-safe"
-version = "0.38"
+version = "0.40.2"
 features = [
 	# "textlayout"
 ]
